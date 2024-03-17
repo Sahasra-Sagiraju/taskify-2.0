@@ -1,0 +1,9 @@
+button {
+  place-self: center;
+}
+
+.tasks-details {
+  grid-template-columns: .25fr 1fr 1fr 1fr !important;
+}
+
+/*# sourceMappingURL=mytasks.03d55632.css.map */

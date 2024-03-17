@@ -1,0 +1,1 @@
+{"mappings":"AAAA;;;;AAKA","sources":["src/myTasks.css"],"sourcesContent":["button {\r\n  align-self: center;\r\n  justify-self: center;\r\n}\r\n\r\n.tasks-details {\r\n  grid-template-columns: 0.25fr 1fr 1fr 1fr !important;\r\n}\r\n"],"names":[],"version":3,"file":"mytasks.03d55632.css.map","sourceRoot":"/__parcel_source_root/"}

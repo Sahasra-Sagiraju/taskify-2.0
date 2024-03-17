@@ -1,0 +1,95 @@
+*, :before, :after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.text {
+  margin-bottom: 10px;
+}
+
+.urgent-tasks-details {
+  color: var(--text-color);
+  border-top: 2px solid var(--text-color);
+  grid-template-columns: .25fr 1fr 1fr 1fr;
+  gap: 10px;
+  margin-inline: 30px;
+  display: grid;
+}
+
+.urgent-tasks-container .urgent-tasks {
+  text-align: center;
+  margin: 20px;
+  padding: 5px;
+}
+
+.urgent-tasks-container #details-button button {
+  background-color: #45a2a9;
+  border: 2px solid #0000;
+  border-radius: 15px;
+  width: 50%;
+}
+
+.urgent-tasks-container #sno {
+  background-color: #45a2a9;
+  border: 2px solid #0000;
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+}
+
+.urgent-tasks-container #urgent-task-name {
+  text-align: left;
+  margin-left: 0;
+}
+
+.urgent-tasks-container {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.urgent-tasks-container .details-btn {
+  place-self: center;
+}
+
+.tag-high {
+  border: 1px solid transperant;
+  color: #fff;
+  text-align: center;
+  background-color: maroon;
+  border-radius: 30px;
+  width: 100px;
+  height: 30px;
+  margin: 20px;
+  padding: 5px;
+  font-size: 14px;
+}
+
+.tag-medium {
+  color: #fff;
+  border: 1px solid transperant;
+  text-align: center;
+  background-color: #ff8c00;
+  border-radius: 30px;
+  width: 100px;
+  height: 30px;
+  margin: 20px;
+  padding: 5px;
+  font-size: 14px;
+}
+
+.tag-low {
+  color: #fff;
+  border: 1px solid transperant;
+  text-align: center;
+  background-color: green;
+  border-radius: 30px;
+  width: 100px;
+  height: 30px;
+  margin: 20px;
+  padding: 5px;
+  font-size: 14px;
+}
+
+/*# sourceMappingURL=urgenttasks.2a3d896f.css.map */

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head><script src="/mytasks.27dd760a.js"></script><script src="/mytasks.7a217556.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!----======== CSS ======== -->
+    <link rel="stylesheet" href="/dashboard.094402d4.css">
+    <link rel="stylesheet" href="/dashboard.175274cb.css">
+    <link rel="stylesheet" href="/dashboard.c1130d08.css">
+
+    <!----===== Boxicons CSS ===== -->
+    <link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet">
+    <link rel="icon" href="date:,">
+
+    <title>Dashboard</title>
+  </head>
+  <body>
+    <nav class="sidebar close">
+      <header>
+        <div class="image-text">
+          <span class="image">
+            <img src="/logo.e281644b.png" alt="">
+          </span>
+
+          <div class="text logo-text">
+            <span class="name">Taskify</span>
+            <span class="profession">Track Progress</span>
+          </div>
+        </div>
+
+        <i class="bx bx-chevron-right toggle"></i>
+      </header>
+
+      <div class="menu-bar">
+        <div class="menu">
+          <ul class="menu-links">
+            <li class="nav-link">
+              <a href="/dashboard.html" onclick="loadContent('dashboard.html')">
+                <i class="bx bx-home-alt icon"></i>
+                <span class="text nav-text">Dashboard</span>
+              </a>
+            </li>
+
+            <li class="nav-link">
+              <a href="/mytasks.html" onclick="loadContent('mytasks.html')">
+                <i class="bx bx-bar-chart-alt-2 icon"></i>
+                <span class="text nav-text">My Tasks</span>
+              </a>
+            </li>
+
+            <li class="nav-link">
+              <a href="/urgenttasks.html" onclick="loadContent('urgenttasks.html')">
+                <i class="bx bx-bell icon"></i>
+                <span class="text nav-text">Priorities</span>
+              </a>
+            </li>
+        
+
+        <li class="nav-link">
+          <a href="/addtask.html" onclick="loadContent('addtask.html')">
+            <i class="bx bx-wallet icon"></i>
+            <span class="text nav-text">Add Task</span>
+          </a>
+        </li>
+      </ul>
+
+      <li class="nav-link">
+        <a href="/oneTime.html" onclick="loadContent('oneTime.html')">
+          <i class="bx bx-wallet icon"></i>
+          <span class="text nav-text">   1 Time Tasks</span>
+        </a>
+      </li>
+    
+    </div>
+
+        <div class="bottom-content">
+          <li class="">
+            <a href="/index.html">
+              <i class="bx bx-log-out icon"></i>
+              <span class="text nav-text">Logout</span>
+            </a>
+          </li>
+
+          <li class="mode">
+            <div class="sun-moon">
+              <i class="bx bx-moon icon moon"></i>
+              <i class="bx bx-sun icon sun"></i>
+            </div>
+            <span class="mode-text text">Dark mode</span>
+
+            <div class="toggle-switch">
+              <span class="switch"></span>
+            </div>
+          </li>
+        </div>
+      </div>
+    </nav>
+
+    <section class="home">
+      <div class="text">Dashboard</div>
+      <div class="dashboard-box">
+        <div class="content-container">
+          <div class="TodaysTasks">
+            <h2>Today's Tasks</h2>
+
+            <div class="Task"></div>
+          </div>
+
+          <div class="subcontainer">
+            <div class="NextdayTasks">
+              <h2>Next day's Tasks</h2>
+              <div class="nextDayTasksContainer"></div>
+            </div>
+            <div class="ThisWeeksTasks">
+              <h2>This Week's tasks</h2>
+              <div class="thisWeeksTasksContainer"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Details page -->
+
+      <div class="details-box" hidden=""></div>
+    </section>
+
+    <script src="/dashboard.a2a6a092.js"></script>
+    <script src="/dashboard.adbc2cbf.js" defer=""></script>
+  </body>
+</html>

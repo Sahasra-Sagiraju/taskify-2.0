@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
-    "dev": "del .parcel-cache && parcel src/index.html",
-    "build": "del .parcel-cache && parcel build src/index.html"
+    "dev": "rm -rf .parcel-cache && parcel src/index.html",
+    "build": "rm -rf .parcel-cache && parcel build src/index.html"
   },
   "devDependencies": {
     "parcel": "^2.6.2"

@@ -1,0 +1,137 @@
+@import "https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap";
+.introduction-custom {
+  border: 2px solid #fff;
+  border-radius: 10px;
+  grid-template-columns: 1fr 2fr;
+  gap: 30px;
+  height: 300px;
+  margin: 30px;
+  padding: 50px;
+  display: grid;
+}
+
+nav ul {
+  margin: 50px;
+  padding: 0;
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  color: #fff;
+  margin: 20px;
+  padding: 10px 20px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: #28dbdb;
+  background-color: #fff;
+  border-radius: 15px;
+}
+
+.introduction-custom .introduction-image-custom {
+  align-items: center;
+  margin: auto;
+  animation: 3s forwards slideInImage;
+}
+
+.introduction-custom .intro-image-custom {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+@keyframes slideInImage {
+  from {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideInContent {
+  from {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.introduction-custom .introduction-content-custom {
+  color: #f0f8ff;
+  text-align: center;
+  border: 3px solid #f0f8ff;
+  border-radius: 10px;
+  margin: auto;
+  padding: 30px;
+  animation: 3s forwards slideInContent;
+}
+
+h1 {
+  color: #f0f8ff;
+  text-align: center;
+  text-underline-offset: 10px;
+  margin: 10px;
+  padding: 20px;
+  -webkit-text-decoration: underline #7fffd4;
+  text-decoration: underline #7fffd4;
+}
+
+* {
+  background-color: #000;
+  margin: 0;
+  padding: 0;
+  font-family: Poppins, sans-serif;
+}
+
+.introduction-custom2 {
+  border: 2px solid #fff;
+  border-radius: 10px;
+  grid-template-columns: 2fr 1fr;
+  gap: 30px;
+  height: 300px;
+  margin: 30px;
+  padding: 50px;
+  display: grid;
+}
+
+.introduction-custom2 .introduction-image-custom {
+  align-items: center;
+  margin: auto;
+  animation: 3s forwards slideInImage;
+}
+
+.introduction-custom2 .intro-image-custom {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.introduction-custom2 .introduction-content-custom {
+  color: #f0f8ff;
+  text-align: center;
+  border: 3px solid #f0f8ff;
+  border-radius: 10px;
+  margin: auto;
+  padding: 30px;
+  animation: 3s forwards slideInContent;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/*# sourceMappingURL=about.1ebb1219.css.map */
